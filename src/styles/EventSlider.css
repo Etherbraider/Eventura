@@ -1,0 +1,11 @@
+.event-slider {
+    padding: 40px;
+    background-color: var(--primary-color);
+  }
+  
+  .event-slider h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

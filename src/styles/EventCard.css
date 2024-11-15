@@ -1,0 +1,18 @@
+#card-container{
+  display: flex;
+
+
+  
+}
+#cards {
+  height: 2.25in;
+  width: 1.95in;
+  background-color:whitesmoke;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 2px;
+}
+#cards:hover{
+  box-shadow:0 1px 6px var(--tertiary-color) ;
+  cursor: pointer;
+}

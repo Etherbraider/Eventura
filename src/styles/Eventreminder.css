@@ -1,0 +1,66 @@
+.event-reminder {
+    /* margin-left: 10px; */
+    padding: 10px;
+    border-radius: 5px;
+    background-color:var(--footer-bgc) ;
+    max-width: 180px;
+    margin-top: 50px;
+    opacity: 90%;
+    transform: translateX(-20%);
+  }
+  
+  .event-reminder h4 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color:var(--tertiary-color);
+    /* text-shadow:0 1px 6px var(--tertiary-color) ; */
+    opacity: 200%;
+  }
+  
+  .event-item {
+    margin-bottom: 8px;
+    opacity: 60%;
+  }
+  
+  .event-item p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+    color: whitesmoke;
+  }
+  #reminder-head{
+    display: flex
+  }
+  .event-item p strong {
+    color: whitesmoke;
+  }
+
+  #calendarimg{
+    height: 30px ;
+    width: 30px;
+    cursor: pointer;
+  }
+  .event-reminder {
+    position: relative; /* Positioning context for absolute elements */
+    /* Add other styles for event-reminder if needed */
+  }
+  
+  .calendar-popup {
+    position: absolute;
+    top: 50px; /* Adjust as needed to position the popup */
+    right: 0; /* Position it to the right side */
+    background-color: white;
+    padding: 10px;
+    z-index: 1000; /* Ensures it appears above other elements */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .calendar-icon:hover {
+    cursor: pointer;
+    box-shadow:0 4px 15px #565869;;
+  }
+  
+  #calendarimg {
+    width: 24px;
+    height: 24px;
+  }

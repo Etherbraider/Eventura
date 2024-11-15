@@ -1,0 +1,16 @@
+.react-calendar {
+    width: 250px;
+    background: var(--footer-bgc);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .react-calendar__tile--active {
+    background: var(--tertiary-color); /* Change active date color */
+    color: #fff;
+  }
+  
+#Calendar-box{
+    transform: translateX(300%);
+    left: 200px;
+}

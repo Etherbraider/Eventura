@@ -1,0 +1,127 @@
+/* Define color variables for ChatGPT-like theme */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  background-color: var(--primary-color);
+  
+ 
+}
+
+/* Logo Styling */
+.logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: var(--logo-font);
+  font-size: larger;
+  height: 200px;
+  width: 200px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  /* font-display:large; */
+  /* font-weight: bold; */
+  color: var(--tertiary-color); /* Greenish color for the logo */
+  margin: 0;
+  cursor: pointer;
+}
+
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  padding: 10px 15px;
+  font-family: var(--primary-text);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: var(--hover-color);
+  color: var(--tertiary-color); /* Green on hover */
+}
+
+/* Profile Image and Submenu Styling */
+#profileimg {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+#profile-submenu {
+  background-color: var(--secondary-color);
+  width: fit-content;
+  padding: 1em;
+  position: absolute;
+  top: 80px; /* Adjust as needed */
+  right: 20px; /* Align with the profile image */
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: visibility 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+#profileimg:hover + #profile-submenu, /* Show submenu when hovering over the image */
+#profile-submenu:hover { /* Keep submenu visible when hovered */
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#profile-submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#profile-submenu ul li {
+  margin: 10px 0;
+}
+
+/* Connect Wallet Button */
+.login-btn{
+  background-color: var(--hover-color);
+  color: var(--text-color);
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+  box-shadow:0 4px 15px #565869;
+  background-color: var(--hover-color);
+  color: var(--tertiary-color); /* Greenish on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

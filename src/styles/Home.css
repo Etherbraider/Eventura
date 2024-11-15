@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+
+
+
+
+
+:root {
+    --primary-color: #343541; /* Dark background color similar to ChatGPT */
+    --secondary-color: #40414f; /* Slightly lighter dark for elements */
+    --tertiary-color:#FF6F00; /* Green color for buttons/highlights */
+    --text-color: #d1d5db; /* Light gray for text */
+    --hover-color: #3e3f4b; /* Hover effect color */
+    --border-color: #565869; /* Border and subtle details */
+    --logo-font: "Roboto Flex", sans-serif;
+    --primary-text:"Roboto Flex", sans-serif;
+    --footer-bgc: #00000023;
+  }
+
+
+#home{
+    display: block;
+    align-items: center;
+    
+}
+#host-container{
+    margin: 2em;
+    display: inline-block;
+    border-radius: 10px;
+    border: white 1px dashed;
+    padding: 1rem;
+    justify-content: space-between;
+    
+
+}
+#host-container:hover{
+    cursor:pointer ;
+    border: 1px var(--tertiary-color) solid;
+    
+    
+    
+}
+.hostimg{
+    transform: translateX(50%);
+}
+
+.search{
+    padding:10px;
+    padding-left: 20px;
+    width: 100%;
+    outline: none;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: whitesmoke 1px solid;
+    font-size: medium;
+}
+#searchbar{
+   
+    display:flex;
+    width: 60%;
+
+    
+}
+#searchimg{
+    transform: translateX(-160%);
+    height: 25px ;
+    width: 25px;
+    opacity: 50%;
+    margin:10px ; 
+    cursor: pointer;
+}
+
+
+
+#home-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home-mid{
+    display: block;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+#home-end{
+    display: block;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+.home-heads{
+    color: var(--tertiary-color);
+    margin-left: 25px;
+    font-family: var(--primary-text);
+}

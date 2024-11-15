@@ -1,0 +1,19 @@
+.register-container {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
